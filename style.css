@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Tilt+Neon&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(80deg, #0057a8, #3c0dee);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 3rem;
+}
+.container-relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    height: 230px;
+    width: 550px;
+    border-radius: 8px;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.container-relogio div{
+    height: 180px;
+    width: 3080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 3px;
+    color: lightgray;
+    margin: 0 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
+    background-color: #37638a;
+}
+
+relogio span {
+    text-transform: uppercase;
+    font-size: 19px;
+}
+#audio{
+    display: none;
+}
