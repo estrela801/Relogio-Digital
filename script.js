@@ -15,10 +15,10 @@ const relogio = setInterval(function time() {
     document.querySelector("#segundos").innerHTML = seg;
 
     const audio = document.querySelector('#meuAudio')
-    if (hr === 15 && min === 42) {
+    if (hr === 15 && min === 53 && seg === 0) {
         audio.play()
     }
-    if (hr === 15 && min === 43) {
-        audio.pause
+    if (hr === 15 && min === 53 && seg === 15) {
+        audio.pause()
     }
 })
